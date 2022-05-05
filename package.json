@@ -1,9 +1,10 @@
 {
   "name": "@ipss/utils",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,8 @@
   "dependencies": {
     "formik": "^2.2.9",
     "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
   }
 }
