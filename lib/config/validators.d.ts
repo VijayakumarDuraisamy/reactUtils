@@ -1,1 +1,1 @@
-export declare const REQUIRED_TEXT = "This field is required";
+export declare const REQUIRED_TEXT = "Field is required";

@@ -1,1 +1,1 @@
-export const REQUIRED_TEXT = "This field is required"
+export const REQUIRED_TEXT = "Field is required"
