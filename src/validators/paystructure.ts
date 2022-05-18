@@ -7,5 +7,10 @@ export const paySchema = {
     paydesc: yup.string().required(REQUIRED_TEXT),
     pickfrom: yup.string().required(REQUIRED_TEXT),
     formula: yup.string().required(REQUIRED_TEXT),
-
+}
+export const emppayinfoSchema = {
+    paycode: yup.string().required(REQUIRED_TEXT),
+    paydesc: yup.string().required(REQUIRED_TEXT),
+    preamount: yup.string().required(REQUIRED_TEXT),
+    amount: yup.string().required(REQUIRED_TEXT),
 }
