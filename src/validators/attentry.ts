@@ -7,4 +7,5 @@ export const AttdnceEntrySchema = {
   present: yup.string().required(REQUIRED_TEXT),
   shift: yup.string().required(REQUIRED_TEXT),
   temp: yup.string().required(REQUIRED_TEXT),
+  lop: yup.string().required(REQUIRED_TEXT),
 }
