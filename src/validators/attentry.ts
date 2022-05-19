@@ -6,5 +6,5 @@ export const AttdnceEntrySchema = {
   idcard: yup.string().required(REQUIRED_TEXT),
   present: yup.string().required(REQUIRED_TEXT),
   shift: yup.string().required(REQUIRED_TEXT),
- temp: yup.string().required(REQUIRED_TEXT),
+  temp: yup.string().required(REQUIRED_TEXT),
 }
