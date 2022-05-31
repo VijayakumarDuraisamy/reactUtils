@@ -1,10 +1,9 @@
 import * as yup from 'yup'
 import { REQUIRED_TEXT } from '../config/validators'
 
-export const paySchema = {
+export const emppayinfoSchema = {
     paycode: yup.string().required(REQUIRED_TEXT),
-    epaycode: yup.string().required(REQUIRED_TEXT),
     paydesc: yup.string().required(REQUIRED_TEXT),
-    pickfrom: yup.string().required(REQUIRED_TEXT),
-    formula: yup.string().required(REQUIRED_TEXT),
+    preamount: yup.string().required(REQUIRED_TEXT),
+    amount: yup.string().required(REQUIRED_TEXT),
 }
