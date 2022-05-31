@@ -9,7 +9,6 @@ export const addvehicleSchema = {
     vehicletype: yup.string().required(REQUIRED_TEXT),
     compcode: yup.string().required(REQUIRED_TEXT),
     docdate: yup.string().required(REQUIRED_TEXT),
-    docid: yup.string().required(REQUIRED_TEXT),
     ownername: yup.string().required(REQUIRED_TEXT),
     vrent: yup.string().required(REQUIRED_TEXT),
     drivername: yup.string().required(REQUIRED_TEXT),
