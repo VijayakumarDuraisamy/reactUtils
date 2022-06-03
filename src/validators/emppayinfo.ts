@@ -5,5 +5,5 @@ export const emppayinfoSchema = {
     paycode: yup.string().required(REQUIRED_TEXT),
     paydesc: yup.string().required(REQUIRED_TEXT),
     preamount: yup.string().required(REQUIRED_TEXT),
-    amount: yup.string().required(REQUIRED_TEXT),
+    incamount: yup.string().required(REQUIRED_TEXT),
 }
