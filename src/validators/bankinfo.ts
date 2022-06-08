@@ -9,4 +9,5 @@ export const bankSchema = {
     badd: yup.string().required(REQUIRED_TEXT),
     bbranch: yup.string().required(REQUIRED_TEXT),
     bcode: yup.string().required(REQUIRED_TEXT),
+    active: yup.string().required(REQUIRED_TEXT),
 }
