@@ -6,5 +6,5 @@ export const paySchema = {
     epaycode: yup.string().required(REQUIRED_TEXT),
     paydesc: yup.string().required(REQUIRED_TEXT),
     pickfrom: yup.string().required(REQUIRED_TEXT),
-    formula: yup.string().required(REQUIRED_TEXT),
+    
 }

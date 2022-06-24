@@ -5,7 +5,6 @@ export const prodIncentiveDetSchema = {
   enameidno: yup.string().required(REQUIRED_TEXT),
   empid1: yup.string().required(REQUIRED_TEXT),
   amount: yup.string().required(REQUIRED_TEXT),
-  note: yup.string().required(REQUIRED_TEXT),
-incdate: yup.string().required(REQUIRED_TEXT),
+  incdate: yup.string().required(REQUIRED_TEXT),
 
 }
