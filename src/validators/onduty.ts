@@ -8,4 +8,5 @@ export const ondutySchema = {
     odate: yup.string().required(REQUIRED_TEXT),
     oday: yup.string().required(REQUIRED_TEXT),
     ohday: yup.string().required(REQUIRED_TEXT),
+    thrs: yup.string().required(REQUIRED_TEXT)
     }

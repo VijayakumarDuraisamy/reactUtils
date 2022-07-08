@@ -8,6 +8,5 @@ export const payTransMasterSchema = {
     compname: yup.string().required(REQUIRED_TEXT),
     compcode: yup.string().required(REQUIRED_TEXT),
     finyear: yup.string().required(REQUIRED_TEXT),
-    totamt: yup.string().required(REQUIRED_TEXT),
     paycat:yup.string().required(REQUIRED_TEXT) ,  
 }
