@@ -2,7 +2,7 @@ import * as yup from 'yup'
 import { REQUIRED_TEXT } from '../config/validators'
 
 export const payTransMasterSchema = {
-    paycode: yup.string().required(REQUIRED_TEXT),
+    //paycode: yup.string().required(REQUIRED_TEXT),
     payperiod: yup.string().required(REQUIRED_TEXT),
     paydesc: yup.string().required(REQUIRED_TEXT),
     //compname: yup.string().required(REQUIRED_TEXT),
