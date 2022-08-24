@@ -10,7 +10,7 @@ export const individualcustomerSchema = {
   job_position:yup.string().trim().max(50,(LIMIT_TEXT)).matches(/^[aA-zZ\s]+$/ , (ALPHA_TEXT)),
   address:yup.string().trim().max(100),
   pan:yup.string().matches(/^[A-Z]{5}[0-9]{4}[A-Z]{1}$/, (PAN_TEXT)),
-  mobile_no:yup.number().min(6000000000(MOBILE_TEXT)).max(9999999999,(MOBILE_TEXT)),
+  mobile_no:yup.number().min(6000000000,(MOBILE_TEXT)).max(9999999999,(MOBILE_TEXT)),
   city: yup.string().trim().max(50),
   state:yup.string().trim().max(50),
   email: yup.string().email(EMAIL_TEXT),
