@@ -8,3 +8,5 @@ export declare const URL_TEXT = "Invalid website";
 export declare const MOBILE_TEXT = "Invalid mobile number";
 export declare const PAN_TEXT = "Invalid PAN number";
 export declare const GST_TEXT = "Invalid GST number";
+export declare const MINMAX_TEXT = "Field must have value in between 1 and 5";
+export declare const NUM_TEXT = "Field accepts only numeric values";
