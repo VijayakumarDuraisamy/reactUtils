@@ -8,7 +8,7 @@ export const addvehicleSchema = {
     vehiclecatgory: yup.string().required(REQUIRED_TEXT),
     vehicletype: yup.string().required(REQUIRED_TEXT),
     //compcode: yup.string().required(REQUIRED_TEXT),
-    docdate: yup.string().required(REQUIRED_TEXT),
+    docdate: yup.date().required(REQUIRED_TEXT).max("2500-00-00", "Invalid Date"),
     ownername: yup.string().required(REQUIRED_TEXT),
     vrent: yup.string().required(REQUIRED_TEXT),
     drivername: yup.string().required(REQUIRED_TEXT),
