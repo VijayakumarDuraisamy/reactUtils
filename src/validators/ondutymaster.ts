@@ -5,7 +5,7 @@ export const ondutymasterSchema = {
   //year: yup.string().required(REQUIRED_TEXT),
   //compcode: yup.string().required(REQUIRED_TEXT),
   //compname: yup.string().required(REQUIRED_TEXT),
-  docdate: yup.date().required(REQUIRED_TEXT).max("0000-00-00", "Enter valid date"),
+  docdate: yup.date().required(REQUIRED_TEXT).max("31-12-9999", "Enter valid date"),
 }
 
 
