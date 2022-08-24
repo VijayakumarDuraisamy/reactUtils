@@ -3,11 +3,11 @@ export namespace configcustomerSchema {
     const industry_type: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
     const address: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
     const pan: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
-    const mobile_no: import("yup/lib/number").RequiredNumberSchema<number | undefined, import("yup/lib/types").AnyObject>;
+    const mobile_no: yup.NumberSchema<number | undefined, import("yup/lib/types").AnyObject, number | undefined>;
     const city: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
     const state: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
-    const email: import("yup/lib/string").RequiredStringSchema<string | undefined, import("yup/lib/types").AnyObject>;
-    const website: import("yup/lib/string").RequiredStringSchema<string | undefined, import("yup/lib/types").AnyObject>;
+    const email: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
+    const website: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
     const pincode: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
     const gst: yup.StringSchema<string | undefined, import("yup/lib/types").AnyObject, string | undefined>;
 }
