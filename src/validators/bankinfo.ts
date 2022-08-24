@@ -5,8 +5,8 @@ export var bankSchema = {
     bname: yup.string().required(REQUIRED_TEXT),
     //compcode: yup.string().required(REQUIRED_TEXT),
     //compname: yup.string().required(REQUIRED_TEXT),
-    badd: yup.string().required(REQUIRED_TEXT),
-    bbranch: yup.string().required(REQUIRED_TEXT),
-    bcode: yup.string().required(REQUIRED_TEXT),
+    badd: yup.string().required(REQUIRED_TEXT).matches(/^[A-Za-z]+$/, "Special charectors, Numbers not accepted"),
+    bbranch: yup.string().required(REQUIRED_TEXT).matches(/^[A-Za-z]+$/, "Special charectors, Numbers not accepted"),
+    bcode: yup.string().required(REQUIRED_TEXT).matches(/^[A-Za-z]+$/, "Special charectors, Numbers not accepted"),
     active: yup.string().required(REQUIRED_TEXT),
 };
