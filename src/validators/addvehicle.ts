@@ -5,7 +5,7 @@ export const addvehicleSchema = {
     vehiclename: yup.string().required(REQUIRED_TEXT),
     active: yup.string().required(REQUIRED_TEXT),
     vehicleroot: yup.string().required(REQUIRED_TEXT),
-    vehicleno: yup.string().required(REQUIRED_TEXT).matches(/[A-Za-z][A-Za-z]\/[0-9][0-9]\/[A-Za-z ][a-z]\/[0-9][0-9][0-9][0-9]$/, 'Invalid Vehicle Number'),
+    vehicleno: yup.string().required(REQUIRED_TEXT).matches(/[A-Za-z]{2}[0-9][0-9][A-Za-z]{0,2}[0-9]{4}/, 'Invalid Vehicle Number'),
     vehiclecatgory: yup.string().required(REQUIRED_TEXT),
     vehicletype: yup.string().required(REQUIRED_TEXT),
     //compcode: yup.string().required(REQUIRED_TEXT),
