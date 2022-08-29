@@ -10,4 +10,5 @@ export const PAN_TEXT ="Invalid PAN number"
 export const GST_TEXT ="Invalid GST number"
 export const MINMAX_TEXT ="Field must have value in between 1 and 5"
 export const NUM_TEXT ="Field accepts only numeric values"
+export const ADDRESS ="Invalid Address"
 

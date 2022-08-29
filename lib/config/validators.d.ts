@@ -10,3 +10,4 @@ export declare const PAN_TEXT = "Invalid PAN number";
 export declare const GST_TEXT = "Invalid GST number";
 export declare const MINMAX_TEXT = "Field must have value in between 1 and 5";
 export declare const NUM_TEXT = "Field accepts only numeric values";
+export declare const ADDRESS = "Invalid Address";
