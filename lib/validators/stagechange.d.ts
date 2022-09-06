@@ -1,3 +1,3 @@
 export declare const stgnameSchema: {
-    stg_name: import("yup/lib/string").RequiredStringSchema<string | undefined, import("yup/lib/types").AnyObject>;
+    stage_level_id: import("yup/lib/string").RequiredStringSchema<string | undefined, import("yup/lib/types").AnyObject>;
 };

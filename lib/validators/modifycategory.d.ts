@@ -1,3 +1,3 @@
 export declare const modifycatSchema: {
-    modify_category: import("yup/lib/string").RequiredStringSchema<string | undefined, import("yup/lib/types").AnyObject>;
+    change_cat_id: import("yup/lib/string").RequiredStringSchema<string | undefined, import("yup/lib/types").AnyObject>;
 };
