@@ -6,5 +6,5 @@ export const actiontrackerSchema = {
   start_date: yup.date().required(REQUIRED_TEXT),
   exp_end_date: yup.date().required(REQUIRED_TEXT),
   assigned_to_tracker_id: yup.string().trim().required(REQUIRED_TEXT),
-  status: yup.string().required(REQUIRED_TEXT)
+  lead_status_id: yup.string().required(REQUIRED_TEXT)
 }
