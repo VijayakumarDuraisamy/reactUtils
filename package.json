@@ -1,6 +1,6 @@
 {
   "name": "@ipss/utils",
-  "version": "2.7.9",
+  "version": "2.8.0",
   "description": "new schemas added",
   "main": "index.js",
   "scripts": {
