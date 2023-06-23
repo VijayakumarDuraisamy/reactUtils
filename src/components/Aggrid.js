@@ -17,7 +17,7 @@ const AgGrid = ({
 
    }) => {
   return (
-    <div className="ag-theme-alpine" style={{minWidth: '100px', minHeight: '300px' }} >
+    <div className="ag-theme-alpine" style={{minWidth: '100%',height: '300px' }} >
       <AgGridReact
         columnDefs={columnDefs}
         rowData={rowData}
