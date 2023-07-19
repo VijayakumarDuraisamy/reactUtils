@@ -1,6 +1,6 @@
 export const REQUIRED_TEXT = "Field is required"
 export const LIMIT_TEXT ="Fields max length is 50 characters"
-export const DESCRIPTION_TEXT ="Fields max length is 250 characters"
+export const DESCRIPTION_TEXT ="Fields max length is 200 characters"
 export const ALPHA_TEXT ="Field accepts only alphabets "
 export const EMAIL_TEXT ="Invalid E-mail"
 export const ZIP_TEXT ="Invalid pincode" 
